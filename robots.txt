@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────
+# robots.txt — My Daily Task App
+# Update: replace https://example.com with your real domain
+# ─────────────────────────────────────────────────────────
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://example.com/my-daily-task/sitemap.xml
+
+# ── Specific crawler rules ──────────────────────────────
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+
+# Block common bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /

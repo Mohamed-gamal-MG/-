@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!--
+    ─────────────────────────────────────────────────────────
+    sitemap.xml — My Daily Task App
+    Update: replace https://example.com with your real domain
+    ─────────────────────────────────────────────────────────
+  -->
+
+  <!-- Arabic version (default) -->
+  <url>
+    <loc>https://example.com/my-daily-task/</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <!-- Alternate language links (hreflang) -->
+    <xhtml:link rel="alternate" hreflang="ar"      href="https://example.com/my-daily-task/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://example.com/my-daily-task/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/my-daily-task/"/>
+  </url>
+
+  <!-- English version -->
+  <url>
+    <loc>https://example.com/my-daily-task/?lang=en</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar"      href="https://example.com/my-daily-task/"/>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://example.com/my-daily-task/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/my-daily-task/"/>
+  </url>
+
+</urlset>
